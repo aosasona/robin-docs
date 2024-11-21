@@ -1,17 +1,15 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to Robin
+description: Build type-safe full-stack applications in Go and TypeScript faster and easier!
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Build type-safe full-stack applications in Go and TypeScript faster and easier!
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Get started
+      link: /guides/getting-started
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: View on Github
+      link: https://github.com/aosasona/robin
       icon: external
       variant: minimal
 ---
@@ -21,16 +19,20 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Full type-safety" icon="rocket">
+    Safely make API calls without boilerplate code or manually defining types.
+  </Card>
+  <Card title="Error handling" icon="error">
+    First-class error handling with more available options to suit your setup.
+  </Card>
+  <Card title="Zero-dependency client" icon="setting">
+    Generate exactly what you need, no need to install any other additional package.
+  </Card>
+  <Card title="Middleware support" icon="open-book">
+    Easily extend or protect your procedures selectively with (custom) middleware.
+  </Card>
 </CardGrid>
+
+<footer style="text-align:center; margin-top: 4rem;">
+  Made by [Ayodeji](https://trulyao.dev)
+</footer>
